@@ -1,0 +1,15 @@
+[{
+  "uid": "index",
+  "script": "./lib/index.js",
+  "command": "node --harmony-rest-parameters --harmony_destructuring",
+  "append": true,
+  "outFile": "./log/index-out.log",
+  "errFile": "./log/index-err.log"
+}, {
+  "uid": "static",
+  "script": "./bin/static.js",
+  "args": ["--port", 80],
+  "append": true,
+  "outFile": "./log/static-out.log",
+  "errFile": "./log/static-err.log"
+}]

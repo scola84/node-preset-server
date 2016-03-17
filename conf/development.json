@@ -1,0 +1,17 @@
+[{
+  "uid": "index",
+  "script": "./lib/index.js",
+  "command": "node --harmony-rest-parameters --harmony_destructuring",
+  "watch": true,
+  "append": true
+}, {
+  "uid": "build",
+  "script": "./bin/build.js"
+}, {
+  "uid": "static",
+  "script": "./bin/static.js",
+  "args": ["--port", 3000]
+}, {
+  "uid": "reload",
+  "script": "./bin/reload.js"
+}]
